@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Glasslabs Yocto Runner image recipe
 Docker Image recipe for generating a self-hosted Github organization runner capable of building a Yocto Linux rootfs
 

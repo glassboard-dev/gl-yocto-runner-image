@@ -58,7 +58,7 @@ Enter name of work folder: [press Enter for _work]
 2021-10-23 22:36:01Z: Listening for Jobs
 ```
 
-You are now ready to utilize your Yocto build runner in your own repositories/workflows. See [here](https://docs.github.com/en/actions/hosting-your-own-runners/using-self-hosted-runners-in-a-workflow) for more information on how to use a self-hosted runner.
+You are now ready to utilize your Yocto build runner in your own repositories/workflows. See [here](https://docs.github.com/en/actions/hosting-your-own-runners/using-self-hosted-runners-in-a-workflow) for more information on how to use a self-hosted runner in your repository workflow files
 
 ### Building this image
 To begin building this image you will need to have Docker installed. You can find setup guides for various platforms [here](https://docs.docker.com/get-docker/). Once installed we can begin the build process. To buid the docker image execute the following. You can replace ```runner-image``` with whatever name you would like to call your image

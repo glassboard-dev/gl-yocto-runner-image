@@ -11,7 +11,7 @@ The yocto-runner image utilizes a GitHub PAT to request a runner token from Gith
 
 Once you have your token, we can spool up our container using the newly retrieved docker image. You can set the ```name``` to whatever you'd like to call your container.
 ```console
-sudo docker run -d --env ORGANIZATION=<YOUR-GITHUB-ORGANIZATION> --env ACCESS_TOKEN=<YOUR-GITHUB-ACCESS-TOKEN> --name runner yocto-runner
+sudo docker run -d --env ORGANIZATION=<YOUR-GITHUB-ORGANIZATION> --env ACCESS_TOKEN=<YOUR-GITHUB-ACCESS-TOKEN> --name runner glassboard/yocto-runner
 ```
 
 You can verify the status of the runner by executing the following.

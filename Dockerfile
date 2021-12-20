@@ -1,6 +1,9 @@
 # base
 FROM ubuntu:20.04
 
+# Add a label pointing to our repository
+LABEL org.opencontainers.image.source="https://github.com/glassboard-dev/gl-yocto-runner-image"
+
 # set the github runner version
 ARG RUNNER_VERSION="2.285.1"
 

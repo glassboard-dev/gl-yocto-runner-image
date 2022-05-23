@@ -38,6 +38,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     xterm \
     cpio \
     file \
+    xxd \
     locales
 
 # Update the locales to UTF-8
